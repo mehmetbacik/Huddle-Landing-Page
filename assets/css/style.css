@@ -2,4 +2,63 @@
 :root {
   --fontheading: "Poppins", sans-serif;
   --fontbody: "Open Sans", sans-serif;
+  --color1: hsl(322, 100%, 66%);
+  --color2: hsl(321, 100%, 78%);
+  --color3: hsl(0, 100%, 63%);
+  --color4: hsl(192, 100%, 9%);
+  --color5: hsl(207, 100%, 98%);
+}
+
+body {
+  font-family: var(--fontbody);
+}
+body header nav {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body header nav #navarea .btn {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16px;
+  color: var(--color1);
+  border-color: var(--color1);
+}
+body header nav #navarea .btn:hover {
+  background: none;
+}
+body main #section-one {
+  margin-top: 150px;
+}
+body main #section-one .content {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+body main #section-one .content h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--color4);
+}
+body main #section-one .content p {
+  font-weight: 500;
+  color: var(--color4);
+  margin-bottom: 30px;
+}
+body main #section-one .content button {
+  padding: 15px 70px;
+  border-radius: 30px;
+  background-color: var(--color2);
+  border-color: var(--color2);
+  color: var(--color5);
+  font-weight: bold;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+body main #section-one .image {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
