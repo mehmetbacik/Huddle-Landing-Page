@@ -32,6 +32,7 @@ body header nav #navarea .btn:hover {
 }
 body main #section-one {
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 body main #section-one .content {
   text-align: center;
@@ -61,4 +62,38 @@ body main #section-one .image {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 50px;
+}
+body main #section-one .image img {
+  width: 100%;
+}
+body main #section-one .values {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main #section-one .values .communities {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+body main #section-one .values .communities::before {
+  content: url(/assets/img/icon-communities.svg);
+}
+body main #section-one .values .communities span:first-child {
+  font-size: 60px;
+  font-weight: bold;
+}
+body main #section-one .values .messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+body main #section-one .values .messages::before {
+  content: url(/assets/img/icon-messages.svg);
+}
+body main #section-one .values .messages span:first-child {
+  font-size: 60px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
