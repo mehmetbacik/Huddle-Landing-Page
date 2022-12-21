@@ -43,6 +43,7 @@ body main #section-one .content h1 {
   font-weight: bold;
   margin-bottom: 20px;
   color: var(--color4);
+  font-family: var(--fontheading);
 }
 body main #section-one .content p {
   font-weight: 500;
@@ -96,4 +97,116 @@ body main #section-one .values .messages::before {
 body main #section-one .values .messages span:first-child {
   font-size: 60px;
   font-weight: bold;
+}
+body main #section-two .content {
+  background-color: #f5fafe;
+  margin-top: -10px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+body main #section-two .content .imgtext .text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+body main #section-two .content .imgtext .text span {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--fontheading);
+}
+body main #section-two .content .imgtext .img img {
+  width: 100%;
+}
+body main #section-two::before {
+  content: "";
+  background-image: url(/assets/img/bg-section-top-desktop-1.svg);
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+}
+body main #section-two::after {
+  content: "";
+  background-image: url(/assets/img/bg-section-bottom-desktop-1.svg);
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+}
+body main #section-three {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+body main #section-three .img img {
+  width: 100%;
+}
+body main #section-three .text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+body main #section-three .text span {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--fontheading);
+}
+body main #section-four .content {
+  background-color: #f5fafe;
+  margin-top: -10px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+body main #section-four .content .imgtext .text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+body main #section-four .content .imgtext .text span {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--fontheading);
+}
+body main #section-four .content .imgtext .img img {
+  width: 100%;
+}
+body main #section-four::before {
+  content: "";
+  background-image: url(/assets/img/bg-section-top-desktop-1.svg);
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+}
+body main #section-four::after {
+  content: "";
+  background-image: url(/assets/img/bg-section-bottom-desktop-1.svg);
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 100%;
+  height: 120px;
+}
+body main #section-five {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+body main #section-five .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body main #section-five .content h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--fontheading);
+}
+body main #section-five .content button {
+  padding: 15px 70px;
+  border-radius: 30px;
+  background-color: var(--color2);
+  border-color: var(--color2);
+  color: var(--color5);
+  font-weight: bold;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }/*# sourceMappingURL=style.css.map */

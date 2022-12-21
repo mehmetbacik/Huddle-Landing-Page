@@ -45,6 +45,7 @@ body {
                     font-weight: bold;
                     margin-bottom: 20px;
                     color: var(--color4);
+                    font-family: var(--fontheading);
                 }
                 p {
                     font-weight: 500;
@@ -104,6 +105,134 @@ body {
                     }
                 }
 
+            }
+        }
+        #section-two {
+            .content {
+                background-color: #f5fafe;
+                margin-top: -10px;
+                padding-top: 70px;
+                padding-bottom: 70px;
+                .imgtext {
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        span {
+                            font-size: 40px;
+                            font-weight: bold;
+                            font-family: var(--fontheading);
+                        }
+                    }
+                    .img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            &::before {
+                content: "";
+                background-image: url(/assets/img/bg-section-top-desktop-1.svg);
+                background-size: 100% 100%;
+                display: inline-block;
+                width: 100%;
+                height: 120px;
+                
+            }
+            &::after {
+                content: "";
+                background-image: url(/assets/img/bg-section-bottom-desktop-1.svg);
+                background-size: 100% 100%;
+                display: inline-block;
+                width: 100%;
+                height: 120px;
+            }
+        }
+        #section-three {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            .img {
+                img {
+                    width: 100%;
+                }
+            }
+            .text {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                span {
+                    font-size: 40px;
+                    font-weight: bold;
+                    font-family: var(--fontheading);
+                }
+            }
+        }
+        #section-four {
+            .content {
+                background-color: #f5fafe;
+                margin-top: -10px;
+                padding-top: 70px;
+                padding-bottom: 70px;
+                .imgtext {
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+                        span {
+                            font-size: 40px;
+                            font-weight: bold;
+                            font-family: var(--fontheading);
+                        }
+                    }
+                    .img {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            &::before {
+                content: "";
+                background-image: url(/assets/img/bg-section-top-desktop-1.svg);
+                background-size: 100% 100%;
+                display: inline-block;
+                width: 100%;
+                height: 120px;
+                
+            }
+            &::after {
+                content: "";
+                background-image: url(/assets/img/bg-section-bottom-desktop-1.svg);
+                background-size: 100% 100%;
+                display: inline-block;
+                width: 100%;
+                height: 120px;
+            }
+        }
+        #section-five {
+            margin-top: 150px;
+            margin-bottom: 150px;
+            .content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                h1 {
+                    text-align: center;
+                    font-weight: bold;
+                    font-family: var(--fontheading);
+                }
+                button {
+                    padding: 15px 70px;
+                    border-radius: 30px;
+                    background-color: var(--color2);
+                    border-color: var(--color2);
+                    color: var(--color5);
+                    font-weight: bold;
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                }
             }
         }
     }
