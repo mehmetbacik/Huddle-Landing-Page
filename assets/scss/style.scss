@@ -241,15 +241,37 @@ body {
             background-color: var(--color4);
             margin-top: -10px;
             .content {
+                padding-top: 150px;
+                padding-bottom: 150px;
                 .left {
                     .footerlogo {
                         img {
                             filter: brightness(0) invert(1);
                         }
                     }
+                    .footertext {
+                        color: var(--color5);
+                    }
+                    .footerphone {
+                        color: var(--color5);
+                        &::before {
+                            content: url(/assets/img/icon-phone.svg);
+                        }
+                    }
+                    .footermail {
+                        color: var(--color5);
+                        &::before {
+                            content: url(/assets/img/icon-email.svg);
+                        }
+                    }
                 }
                 .right {
-    
+                    .newslettertitle {
+                        color: var(--color5);
+                    }
+                    .newslettertext {
+                        color: var(--color5);
+                    }
                 }
             }
         }

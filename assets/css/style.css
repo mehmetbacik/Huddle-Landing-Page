@@ -214,8 +214,33 @@ body footer .footerarea {
   background-color: var(--color4);
   margin-top: -10px;
 }
+body footer .footerarea .content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 body footer .footerarea .content .left .footerlogo img {
   filter: brightness(0) invert(1);
+}
+body footer .footerarea .content .left .footertext {
+  color: var(--color5);
+}
+body footer .footerarea .content .left .footerphone {
+  color: var(--color5);
+}
+body footer .footerarea .content .left .footerphone::before {
+  content: url(/assets/img/icon-phone.svg);
+}
+body footer .footerarea .content .left .footermail {
+  color: var(--color5);
+}
+body footer .footerarea .content .left .footermail::before {
+  content: url(/assets/img/icon-email.svg);
+}
+body footer .footerarea .content .right .newslettertitle {
+  color: var(--color5);
+}
+body footer .footerarea .content .right .newslettertext {
+  color: var(--color5);
 }
 body footer::before {
   content: "";
