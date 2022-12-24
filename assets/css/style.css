@@ -82,7 +82,7 @@ body main #section-one .values .communities::before {
   content: url(/assets/img/icon-communities.svg);
 }
 body main #section-one .values .communities span:first-child {
-  font-size: 60px;
+  font-size: 75px;
   font-weight: bold;
 }
 body main #section-one .values .messages {
@@ -95,7 +95,7 @@ body main #section-one .values .messages::before {
   content: url(/assets/img/icon-messages.svg);
 }
 body main #section-one .values .messages span:first-child {
-  font-size: 60px;
+  font-size: 75px;
   font-weight: bold;
 }
 body main #section-two .content {
@@ -215,32 +215,72 @@ body footer .footerarea {
   margin-top: -10px;
 }
 body footer .footerarea .content {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+body footer .footerarea .content .left .footerlogo {
+  margin-bottom: 20px;
 }
 body footer .footerarea .content .left .footerlogo img {
   filter: brightness(0) invert(1);
 }
-body footer .footerarea .content .left .footertext {
+body footer .footerarea .content .left .footertext p {
   color: var(--color5);
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 body footer .footerarea .content .left .footerphone {
   color: var(--color5);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 body footer .footerarea .content .left .footerphone::before {
   content: url(/assets/img/icon-phone.svg);
+  margin-right: 10px;
+  line-height: 0;
 }
 body footer .footerarea .content .left .footermail {
   color: var(--color5);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 body footer .footerarea .content .left .footermail::before {
   content: url(/assets/img/icon-email.svg);
+  margin-right: 10px;
+  line-height: 0;
+}
+body footer .footerarea .content .left .footersocial {
+  margin-top: 40px;
+}
+body footer .footerarea .content .left .footersocial a {
+  margin-right: 10px;
 }
 body footer .footerarea .content .right .newslettertitle {
   color: var(--color5);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
-body footer .footerarea .content .right .newslettertext {
+body footer .footerarea .content .right .newslettertext p {
   color: var(--color5);
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+body footer .footerarea .content .right .newsletterform form {
+  display: flex;
+  align-items: center;
+}
+body footer .footerarea .content .right .newsletterform form .text {
+  padding: 5px 20px;
+  border-radius: 6px;
+}
+body footer .footerarea .content .right .newsletterform form .btn {
+  margin-left: 30px;
+  background-color: var(--color1);
+  border-color: var(--color1);
 }
 body footer::before {
   content: "";
