@@ -329,3 +329,183 @@ body {
         }
     }
 }
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    body {
+        main {
+            #section-one {
+                .content {
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+
+            }
+        }
+        footer {
+            .footerarea {
+                .content {
+                    .right {
+                        .newsletterform {
+                            form {
+                                display: flex;
+                                align-items: center;
+                                .text {
+                                    padding: 5px 5px;
+                                    border-radius: 6px;
+                                }
+                                .btn {
+                                    margin-left: 10px;
+                                    background-color: var(--color1);
+                                    border-color: var(--color1);
+                                    font-size: 12px;
+                                    padding: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        main {
+            #section-two {
+                .content {
+                    .imgtext {
+                        .text {
+                            span {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            #section-three {
+                .text {
+                    span {
+                        font-size: 20px;
+                    }
+                }
+            }
+            #section-four {
+                .content {
+                    .imgtext {
+                        .text {
+                            span {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            .footerarea {
+                .content {
+                    .left {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+            &::before {
+                content: "";
+                background-image: url(/assets/img/bg-footer-top-desktop.svg);
+                background-size: 100% 100%;
+                display: inline-block;
+                width: 100%;
+                height: 120px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        header {
+            nav {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                #navarea {
+                    .navbar-brand {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .btn {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        main {
+            #section-one {
+                margin-top: 20px;
+                margin-bottom: 50px;
+                .content {
+                    button {
+                        padding: 15px 50px;
+                    }
+                }
+                .values {
+                    display: block;
+                    .communities  {
+                        margin-bottom: 40px;
+                    }
+                    .messages {
+                        margin-bottom: 40px;
+                    }
+    
+                }
+            }
+            #section-two {
+                &::before {
+                    height: 70px;
+                }
+                &::after {
+                    height: 70px;
+                }
+            }
+            #section-four {
+                &::before {
+                    height: 70px;
+                    
+                }
+                &::after {
+                    height: 70px;
+                }
+            }
+        }
+        footer {
+            .footerarea {
+                .content {
+                    .left {
+                        .footerlogo {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .right {
+                        .newsletterform {
+                            form {
+                                flex-direction: column;
+                                .btn {
+                                    margin-left: 0;
+                                    width: 100%;
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &::before {
+                height: 70px;
+            }
+        }
+    }
+}

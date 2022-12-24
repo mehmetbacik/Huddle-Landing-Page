@@ -289,4 +289,101 @@ body footer::before {
   display: inline-block;
   width: 100%;
   height: 120px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  body main #section-one .content h1 {
+    font-size: 30px;
+  }
+  body footer .footerarea .content .right .newsletterform form {
+    display: flex;
+    align-items: center;
+  }
+  body footer .footerarea .content .right .newsletterform form .text {
+    padding: 5px 5px;
+    border-radius: 6px;
+  }
+  body footer .footerarea .content .right .newsletterform form .btn {
+    margin-left: 10px;
+    background-color: var(--color1);
+    border-color: var(--color1);
+    font-size: 12px;
+    padding: 7px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body main #section-two .content .imgtext .text span {
+    font-size: 20px;
+  }
+  body main #section-three .text span {
+    font-size: 20px;
+  }
+  body main #section-four .content .imgtext .text span {
+    font-size: 20px;
+  }
+  body footer .footerarea .content .left {
+    margin-bottom: 40px;
+  }
+  body footer::before {
+    content: "";
+    background-image: url(/assets/img/bg-footer-top-desktop.svg);
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 576px) {
+  body header nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body header nav #navarea .navbar-brand img {
+    width: 100%;
+  }
+  body header nav #navarea .btn {
+    margin-top: 30px;
+  }
+  body main #section-one {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  body main #section-one .content button {
+    padding: 15px 50px;
+  }
+  body main #section-one .values {
+    display: block;
+  }
+  body main #section-one .values .communities {
+    margin-bottom: 40px;
+  }
+  body main #section-one .values .messages {
+    margin-bottom: 40px;
+  }
+  body main #section-two::before {
+    height: 70px;
+  }
+  body main #section-two::after {
+    height: 70px;
+  }
+  body main #section-four::before {
+    height: 70px;
+  }
+  body main #section-four::after {
+    height: 70px;
+  }
+  body footer .footerarea .content .left .footerlogo img {
+    width: 100%;
+  }
+  body footer .footerarea .content .right .newsletterform form {
+    flex-direction: column;
+  }
+  body footer .footerarea .content .right .newsletterform form .btn {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  body footer::before {
+    height: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */
